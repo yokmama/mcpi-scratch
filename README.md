@@ -10,7 +10,7 @@ More specifically, its an extension application for the [ScratchX editor](http:/
 * Minecraft Pi Edition
 * CraftBukkit server with the RaspberryJuice mod
 
-A more detailed description is provided in [github page for the project](http://jbaragry.github.io/mcpi-scratch/)
+A more detailed description is provided in [github page for the project](http://yokmama.github.io/mcpi-scratch/)
 
 Everything is (c) Jason Baragry licensed under CC-BY-SA (Creative commons by attribution)
 
