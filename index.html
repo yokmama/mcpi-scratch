@@ -1,68 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <meta charset="UTF-8">
+    <title>mcpi-scratch by yokmama</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <title>mcpi-scratch by jbaragry</title>
   </head>
-
   <body>
-    <header>
-      <div class="inner">
-        <h1>mcpi-scratch</h1>
-        <h2>ScratchX extension application to manipulate Minecraft throught the Pi Protocol api</h2>
-        <a href="https://github.com/jbaragry/mcpi-scratch" class="button"><small>View project on</small> GitHub</a>
-      </div>
-    </header>
+    <section class="page-header">
+      <h1 class="project-name">mcpi-scratch</h1>
+      <h2 class="project-tagline">Scratch 2 extension application to manipulate Minecraft throught the Pi Protocol api</h2>
+      <a href="https://github.com/yokmama/mcpi-scratch" class="btn">View on GitHub</a>
+      <a href="https://github.com/yokmama/mcpi-scratch/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/yokmama/mcpi-scratch/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          <h1>
+    <section class="main-content">
+      <h1>
 <a id="mcpi-scratch" class="anchor" href="#mcpi-scratch" aria-hidden="true"><span class="octicon octicon-link"></span></a>MCPI-Scratch</h1>
 
-<p>A ScratchX extension application for the Minecraft-Pi Protocol</p>
+<p>A Scratch 2.0 extension application for the Minecraft Pi Protocol</p>
+
+<h1>
+<a id="status" class="anchor" href="#status" aria-hidden="true"><span class="octicon octicon-link"></span></a>Status</h1>
+
+<p>Currently working on a fix to MCPI-Scratch working with <a href="http://http://scratchx.org/">ScratchX</a></p>
 
 <h1>
 <a id="introduction" class="anchor" href="#introduction" aria-hidden="true"><span class="octicon octicon-link"></span></a>Introduction</h1>
 
 <p>MCPI-Scratch lets you write Scratch scripts to manipulate Minecraft. </p>
 
-<p>More specifically, its an extension application for the <a href="http://scratchx.org">ScratchX</a> online editor that allows you to use blocks that represent the <a href="http://wiki.vg/Minecraft_Pi_Protocol">Minecraft Pi Protocol</a> API. It actually uses a slightly cut-down version of the API specified by the <a href="http://dev.bukkit.org/bukkit-plugins/raspberryjuice/">RaspberryJuice</a> mod which allows it to connect to both:</p>
+<p>More specifically, its an extension application for the Scratch 2 standalone editor that allows you to use blocks that represent the <a href="http://wiki.vg/Minecraft_Pi_Protocol">Minecraft Pi Protocol</a> API. It actually uses a slightly cut-down version of the API specified by the <a href="http://dev.bukkit.org/bukkit-plugins/raspberryjuice/">RaspberryJuice</a> mod which allows it to connect to both:</p>
 
 <ul>
 <li>Minecraft Pi Edition</li>
-<li>CanaryMod server with the RaspberryJuice mod</li>
+<li>CraftBukkit server with the RaspberryJuice mod</li>
 </ul>
 
-<p>A more detailed description of how it works is provided in <a href="http://niphophila.blogspot.no/2015/07/mcpi-scratch-updated-to-manipulate.html">this blog entry</a></p>
+<p>A more detailed description of how it works is provided in <a href="http://niphophila.blogspot.com/2014/09/mcpi-scratch-scratch-extension.html">this blog entry</a></p>
 
-<p>You might also want to have a look at the documentation at ScriptCraft which has a nice <a href="https://github.com/walterhiggins/ScriptCraft/blob/master/docs/YoungPersonsGuideToProgrammingMinecraft.md">The Young Person's Guide to Programming in Minecraft</a>. It has lots of general tips, for example on how to set up a flat world in CanaryMod, before getting into its own javascript specific API. </p>
+<p>You might also want to have a look at the documentation at ScriptCraft which has a nice <a href="https://github.com/walterhiggins/ScriptCraft/blob/master/docs/YoungPersonsGuideToProgrammingMinecraft.md">The Young Person's Guide to Programming in Minecraft</a>. It has lots of general tips, for example on how to set up a flat world in CraftBukkit, before getting into its own javascript specific API. </p>
 
 <p>See also the excellent set of tutorials for <a href="http://www.stuffaboutcode.com/2013/04/minecraft-pi-edition-api-tutorial.html">programming with the Pi Edition API</a>. Its written for Python but the information can be easily applied to Scratch.</p>
 
 <p>You will also want to keep this <a href="http://www.stuffaboutcode.com/p/minecraft-api-reference.html">reference for block IDs and metadata</a> handy.</p>
 
+<p>Everything is (c) Jason Baragry licensed under CC-BY-SA (Creative commons by attribution)</p>
+
 <p>To make it easier for Scrachers to get up and going, I've chosen to include the Minecraft Pi Edition API in this distribution. I don't think it violates the <a href="https://account.mojang.com/documents/minecraft_eula">Minecraft EULA</a> but it may be that I need to remove it later and you add it yourself.</p>
 
 <p>The API is the one from <a href="http://minecraft.gamepedia.com/Pi_Edition">Minecraft Pi Edition</a> and not the modded API from RaspberryJuice. But it might be worth changing to that one later if it gives extra functionality.</p>
 
+<p>The last interesting feature is how the app deals with polling from Scratch. Scratch polls for changed player position (and other reporter variables) about 30 times per second. This polling frequency can't be changed and if the app sent a corresponding <code>getPlayerPos</code> request everytime it would choke the <code>minecraft</code> server. Instead the app keeps a counter and sends the <code>getPlayerPos</code> command every 15 times - approx every 0.5 seconds.</p>
+
 <h1>
 <a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h1>
 
-<p>Download and install this project distribution. The application <code>mcpi-scratch.py</code> is a bridge between ScratchX and your Minecraft server</p>
+<p>Download and install the <a href="http://scratch.mit.edu/scratch2download/">Scratch 2 offline editor</a>.</p>
 
-<p>You need to run this application on the same machine as the browser you use to access ScratchX</p>
+<p>You need to run this extension application on the same machine as Scratch. Scratch will then communicate with it via HTTP on port <code>4715</code></p>
 
 <p>Minecraft can either be runnnig on the same machine or on another machine which you can specify as a startup parameter. MCPI-Scratch expects Minecraft to be listening on the default port for the Minecraft Pi Protocol - <code>4711</code></p>
 
@@ -93,10 +93,10 @@ This must be running before you start MCPI-Scratch because the application attem
 
 <ul>
 <li>Minecraft Pi Edition or </li>
-<li>CanaryMod server with the RaspberryJuice mod + plus the Minecraft launcher to start a client to connect to the server
+<li>CraftBukkit server with the RaspberryJuice mod + plus the Minecraft launcher to start a client to connect to the server
 
 <ul>
-<li>There's a nice blog about setting up this env at <a href="http://www.stuffaboutcode.com/2014/10/minecraft-raspberryjuice-and-canarymod.html">StuffAboutCode</a>
+<li>There's a nice blog about setting up this env at <a href="http://www.stuffaboutcode.com/2013/06/programming-minecraft-with-bukkit.html">StuffAboutCode</a>
 </li>
 </ul>
 </li>
@@ -106,11 +106,9 @@ This must be running before you start MCPI-Scratch because the application attem
 The application attempts to connect to localhost by default. Use the <code>-m host</code> cmd-line arg to specify minecraft running on another machine
 $ python ./mcpi-scratch.py
 or
-$ python ./mcpi-scratch.py -m 192.168.1.117 (the IP for your RPi or CanaryMod server)</p></li>
-<li><p>Open <a href="http://scratchx.org">ScratchX</a> with a browser. 
-You can copy this url <code>http://jbaragry.github.io/mcpi-scratch/mcpi-scratch.js</code> to use in ScratchX<br/>
-Alternatively you can open <code>MCPI-Scrarch</code> <a href="http://scratchx.org/?url=http://jbaragry.github.io/mcpi-scratch/mcpi-scratch.js">directly in ScratchX</a><br/>
-You can also open the url of one of the <a href="https://github.com/jbaragry/mcpi-scratch/tree/master/scratchExamples">.sbx examples</a> in the samples provided on the github page</p></li>
+$ python ./mcpi-scratch.py -m 192.168.1.117 (the IP for your RPi or CraftBukkit server)</p></li>
+<li><p>Start Scratch. 
+When the editor loads, shift-click the File menu and select <code>load experimental...</code> and select the file <code>filename</code> in the MCPI-Scratch install directory. You should now be able to select the <code>More Blocks</code> </p></li>
 </ol>
 
 <h1>
@@ -119,6 +117,12 @@ You can also open the url of one of the <a href="https://github.com/jbaragry/mcp
 <p>MCPI-Scratch supports the following Blocks</p>
 
 <ul>
+<li>getPlayerPos:
+
+<ul>
+<li>get the Player's x,y,z coordinates (in minecraft, the y coordinate is the vertical plane [height])</li>
+</ul>
+</li>
 <li>setPlayerPos:
 
 <ul>
@@ -165,26 +169,51 @@ You can also open the url of one of the <a href="https://github.com/jbaragry/mcp
 
 <h1>
 <a id="changelog" class="anchor" href="#changelog" aria-hidden="true"><span class="octicon octicon-link"></span></a>Changelog</h1>
-<p>See the README file on the project github page</p>
 
-        </section>
+<p>20141011</p>
 
-        <aside id="sidebar">
-          <a href="https://github.com/jbaragry/mcpi-scratch/zipball/master" class="button">
-            <small>Download</small>
-            .zip file
-          </a>
-          <a href="https://github.com/jbaragry/mcpi-scratch/tarball/master" class="button">
-            <small>Download</small>
-            .tar.gz file
-          </a>
+<ul>
+<li>added blocks for setLine and setCircle drawing based on Bresenham's Algorithms</li>
+<li>added block for postPlayerPosToChat to allow viewing of the current player position</li>
+<li><a href="http://niphophila.blogspot.no/2014/10/mcpi-scratch-lines-and-circles.html">blog entry</a></li>
+</ul>
 
-          <p class="repo-owner"><a href="https://github.com/jbaragry/mcpi-scratch"></a> is maintained by <a href="https://github.com/jbaragry">jbaragry</a>.</p>
+<p>20140915:</p>
 
-          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
-        </aside>
-      </div>
-    </div>
+<ul>
+<li>first release to test the idea</li>
+<li>includes API operations
+
+<ul>
+<li>getPlayerPos</li>
+<li>setPlayerPos</li>
+<li>setBlock
+
+<ul>
+<li>setBlock has a switch to interpret the coordinates as being either absolute or relative to the player position</li>
+</ul>
+</li>
+<li>setBlocks</li>
+<li>postToChat</li>
+</ul>
+</li>
+<li><a href="http://niphophila.blogspot.com/2014/09/mcpi-scratch-scratch-extension.html">blog entry</a></li>
+</ul>
+
+<h1>
+<a id="issues" class="anchor" href="#issues" aria-hidden="true"><span class="octicon octicon-link"></span></a>Issues</h1>
+
+<ul>
+<li>the poll message doesn't work when there is no player in the world. Need to add a check to stop the exception</li>
+</ul>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/yokmama/mcpi-scratch">mcpi-scratch</a> is maintained by <a href="https://github.com/yokmama">yokmama</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
 
             <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
