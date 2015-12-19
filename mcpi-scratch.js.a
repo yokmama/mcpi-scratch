@@ -1,4 +1,4 @@
-(function (ext) {
+﻿(function (ext) {
 
     var blockHits = false;
 
@@ -188,16 +188,16 @@
     // Block and block menu descriptions
     var descriptor = {
         blocks: [
-            ['', 'post to chat %s', 'postToChat', 'message'],
-            [" ", "post Player.pos chat", "playerPosToChat"],
-            [" ", "set Player pos to x:%n y:%n z:%n", "setPlayerPos", 0, 0, 0],
-            [" ", "set block pos x:%n y:%n z:%n to type %n data %n %m.blockPos", "setBlock", 0, 0, 0, 1, -1],
-            [" ", "set blocks pos x1:%n y1:%n z1:%n to x2:%n y2:%n z2:%n to type %n data %n", "setBlocks", 0, 0, 0, 0, 0, 0, 1, -1],
-            [" ", "set line pos x1:%n z1:%n to x2:%n z2:%n height y:%n to type %n data %n", "setLine", 0, 0, 0, 0, 0, 1, -1],
-            [" ", "set circle center x1:%n z1:%n radius r:%n at height y:%n to type %n data %n", "setCircle", 0, 0, 0, 0, 0, 1, -1],
-            ["R", "get player pos %m.pos", "getPlayerPos", 'x'],
-            ["R", "get block pos x:%n y:%n z:%n %m.blockPos", "getBlock", 0, 0, 0],
-            ["h", "when blockHit", 'whenBlockHit'],
+            ['', 'チャット %s', 'postToChat', 'message'],
+            [" ", "プレイヤーの位置をチャットへ", "playerPosToChat"],
+            [" ", "プレイヤーを位置を設定 x:%n y:%n z:%n", "setPlayerPos", 0, 0, 0],
+            [" ", "ブロックを作成 x:%n y:%n z:%n 種別 %n データ %n %m.blockPos", "setBlock", 0, 0, 0, 1, -1],
+            [" ", "複数のブロックを作成 x1:%n y1:%n z1:%n から x2:%n y2:%n z2:%n 種別 %n データ %n", "setBlocks", 0, 0, 0, 0, 0, 0, 1, -1],
+            [" ", "線を作成 x1:%n z1:%n から x2:%n z2:%n 高さ y:%n 種別 %n データ %n", "setLine", 0, 0, 0, 0, 0, 1, -1],
+            [" ", "円を作成 x1:%n z1:%n 半径 r:%n at 高さ y:%n 種別 %n データ %n", "setCircle", 0, 0, 0, 0, 0, 1, -1],
+            ["R", "プレイヤーの位置を取得 %m.pos", "getPlayerPos", 'x'],
+            ["R", "ブロックの位置を取得 x:%n y:%n z:%n %m.blockPos", "getBlock", 0, 0, 0],
+            ["h", "ブロックにヒットした時", 'whenBlockHit'],
         ],
         menus: {
             pos: ['x', 'y', 'z'],
