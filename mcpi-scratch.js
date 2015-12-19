@@ -188,7 +188,7 @@
     // Block and block menu descriptions
     var descriptor = {
         blocks: [
-            ['', 'チャット %s', 'postToChat', 'message'],
+            ['', 'チャット %s', 'postToChat', 'メッセージ'],
             [" ", "プレイヤーの位置をチャットへ", "playerPosToChat"],
             [" ", "プレイヤーを位置を設定 x:%n y:%n z:%n", "setPlayerPos", 0, 0, 0],
             [" ", "ブロックを作成 x:%n y:%n z:%n 種別 %n データ %n %m.blockPos", "setBlock", 0, 0, 0, 1, -1],
