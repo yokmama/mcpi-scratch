@@ -188,16 +188,16 @@
     // Block and block menu descriptions
     var descriptor = {
         blocks: [
-            ['', 'ƒ`ƒƒƒbƒg %s', 'postToChat', 'message'],
-            [" ", "ƒvƒŒƒCƒ„[‚ÌˆÊ’u‚ğƒ`ƒƒƒbƒg‚Ö", "playerPosToChat"],
-            [" ", "ƒvƒŒƒCƒ„[‚ğˆÊ’u‚ğİ’è x:%n y:%n z:%n", "setPlayerPos", 0, 0, 0],
-            [" ", "ƒuƒƒbƒN‚ğì¬ x:%n y:%n z:%n í•Ê %n ƒf[ƒ^ %n %m.blockPos", "setBlock", 0, 0, 0, 1, -1],
-            [" ", "•¡”‚ÌƒuƒƒbƒN‚ğì¬ x1:%n y1:%n z1:%n ‚©‚ç x2:%n y2:%n z2:%n í•Ê %n ƒf[ƒ^ %n", "setBlocks", 0, 0, 0, 0, 0, 0, 1, -1],
-            [" ", "ü‚ğì¬ x1:%n z1:%n ‚©‚ç x2:%n z2:%n ‚‚³ y:%n í•Ê %n ƒf[ƒ^ %n", "setLine", 0, 0, 0, 0, 0, 1, -1],
-            [" ", "‰~‚ğì¬ x1:%n z1:%n ”¼Œa r:%n at ‚‚³ y:%n í•Ê %n ƒf[ƒ^ %n", "setCircle", 0, 0, 0, 0, 0, 1, -1],
-            ["R", "ƒvƒŒƒCƒ„[‚ÌˆÊ’u‚ğæ“¾ %m.pos", "getPlayerPos", 'x'],
-            ["R", "ƒuƒƒbƒN‚ÌˆÊ’u‚ğæ“¾ x:%n y:%n z:%n %m.blockPos", "getBlock", 0, 0, 0],
-            ["h", "ƒuƒƒbƒN‚Éƒqƒbƒg‚µ‚½", 'whenBlockHit'],
+            ['', 'ãƒãƒ£ãƒƒãƒˆ %s', 'postToChat', 'message'],
+            [" ", "ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã®ä½ç½®ã‚’ãƒãƒ£ãƒƒãƒˆã¸", "playerPosToChat"],
+            [" ", "ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã‚’ä½ç½®ã‚’è¨­å®š x:%n y:%n z:%n", "setPlayerPos", 0, 0, 0],
+            [" ", "ãƒ–ãƒ­ãƒƒã‚¯ã‚’ä½œæˆ x:%n y:%n z:%n ç¨®åˆ¥ %n ãƒ‡ãƒ¼ã‚¿ %n %m.blockPos", "setBlock", 0, 0, 0, 1, -1],
+            [" ", "è¤‡æ•°ã®ãƒ–ãƒ­ãƒƒã‚¯ã‚’ä½œæˆ x1:%n y1:%n z1:%n ã‹ã‚‰ x2:%n y2:%n z2:%n ç¨®åˆ¥ %n ãƒ‡ãƒ¼ã‚¿ %n", "setBlocks", 0, 0, 0, 0, 0, 0, 1, -1],
+            [" ", "ç·šã‚’ä½œæˆ x1:%n z1:%n ã‹ã‚‰ x2:%n z2:%n é«˜ã• y:%n ç¨®åˆ¥ %n ãƒ‡ãƒ¼ã‚¿ %n", "setLine", 0, 0, 0, 0, 0, 1, -1],
+            [" ", "å††ã‚’ä½œæˆ x1:%n z1:%n åŠå¾„ r:%n at é«˜ã• y:%n ç¨®åˆ¥ %n ãƒ‡ãƒ¼ã‚¿ %n", "setCircle", 0, 0, 0, 0, 0, 1, -1],
+            ["R", "ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã®ä½ç½®ã‚’å–å¾— %m.pos", "getPlayerPos", 'x'],
+            ["R", "ãƒ–ãƒ­ãƒƒã‚¯ã®ä½ç½®ã‚’å–å¾— x:%n y:%n z:%n %m.blockPos", "getBlock", 0, 0, 0],
+            ["h", "ãƒ–ãƒ­ãƒƒã‚¯ã«ãƒ’ãƒƒãƒˆã—ãŸæ™‚", 'whenBlockHit'],
         ],
         menus: {
             pos: ['x', 'y', 'z'],
